@@ -6,6 +6,10 @@ sites:
     url: https://hold.kanark.com/api/health
     expectedStatusCodes:
       - 200
+  - name: Hold Web
+    url: https://hold.kanark.com
+    expectedStatusCodes:
+      - 200
 
 status-website:
   baseUrl: /hold-status
