@@ -12,7 +12,7 @@ sites:
       - 200
 
 status-website:
-  baseUrl: /hold-status
+  cname: status.hold.kanark.com
   logoUrl: https://hold.kanark.com/logo.svg
   name: Hold Status
   introTitle: "**Hold** service status and uptime monitor"
