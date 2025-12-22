@@ -5,17 +5,20 @@
     "icon": "https://icons.duckduckgo.com/ip3/hold.kanark.com.ico",
     "slug": "hold-api",
     "status": "down",
-    "uptime": "100.00%",
-    "uptimeDay": "100.00%",
-    "uptimeWeek": "100.00%",
-    "uptimeMonth": "100.00%",
-    "uptimeYear": "100.00%",
-    "time": 201,
-    "timeDay": 201,
-    "timeWeek": 201,
-    "timeMonth": 201,
-    "timeYear": 201,
-    "dailyMinutesDown": {}
+    "uptime": "13.16%",
+    "uptimeDay": "9.92%",
+    "uptimeWeek": "13.16%",
+    "uptimeMonth": "13.16%",
+    "uptimeYear": "13.16%",
+    "time": 206,
+    "timeDay": 216,
+    "timeWeek": 206,
+    "timeMonth": 206,
+    "timeYear": 206,
+    "dailyMinutesDown": {
+      "2025-12-22": 88,
+      "2025-12-21": 1209
+    }
   },
   {
     "name": "Hold Web",
@@ -28,11 +31,11 @@
     "uptimeWeek": "100.00%",
     "uptimeMonth": "100.00%",
     "uptimeYear": "100.00%",
-    "time": 57,
-    "timeDay": 57,
-    "timeWeek": 57,
-    "timeMonth": 57,
-    "timeYear": 57,
+    "time": 59,
+    "timeDay": 63,
+    "timeWeek": 59,
+    "timeMonth": 59,
+    "timeYear": 59,
     "dailyMinutesDown": {}
   }
 ]
