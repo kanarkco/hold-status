@@ -1,6 +1,9 @@
 owner: kanarkco
 repo: hold-status
 
+assignees:
+  - norlanp
+
 sites:
   - name: Hold API
     url: https://hold.kanark.com/api/health
