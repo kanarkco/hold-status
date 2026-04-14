@@ -1,0 +1,31 @@
+owner: kanarkco
+repo: hold-status
+
+
+
+sites:
+  - name: Hold API
+    url: https://hold.kanark.com/api/health
+    expectedStatusCodes:
+      - 200
+  - name: Hold Web
+    url: https://hold.kanark.com
+    expectedStatusCodes:
+      - 200
+
+status-website:
+  cname: status.hold.kanark.com
+  logoUrl: https://hold.kanark.com/logo.svg
+  name: Hold Status
+  introTitle: "**Hold** service status and uptime monitor"
+  introMessage: Real-time status of Hold API services. Powered by [Upptime](https://github.com/upptime/upptime).
+  navbar:
+    - title: Status
+      href: /
+    - title: GitHub
+      href: https://github.com/$OWNER/$REPO
+
+notifications:
+  - type: telegram
+    botToken: $TELEGRAM_BOT_TOKEN
+    chatId: $TELEGRAM_CHAT_ID
